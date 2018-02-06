@@ -9,6 +9,9 @@ var userGuess = null;
 var lettertobeGuessed = alphabet[Math.floor(Math.random() * alphabet.length)];
     console.log("Wins: " + wins + " Losses: " + losses + " guessesLeft: " + guessesLeft + " Guesses so far: " + guessesSoFar + " Computer picked: " + lettertobeGuessed);
 
+var audio = new Audio('/Users/alexissean/Music/iTunes/iTunes Media/Music/Unknown Artist/Unknown Album/Haunted_Mansion_foyer_organ_extended_loop[Mp3Converter.net].mp3');
+    audio.play();
+
 document.onkeyup = function(event){
 
     var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
