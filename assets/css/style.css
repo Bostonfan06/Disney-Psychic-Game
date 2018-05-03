@@ -1,4 +1,10 @@
-.row {background: black;}
+body {
+    background: black;
+}
+
+.row {
+    background: black;
+}
 
 #hatbox {background: black;
 color: purple;
